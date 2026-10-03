@@ -1,0 +1,11 @@
+fecha,producto,categoria,cantidad,precio,costo
+2026-09-01,Cafe,Bebidas,10,2.50,1.10
+2026-09-01,Pan,Panaderia,5,1.25,0.60
+2026-09-02,Cafe,Bebidas,7,2.50,1.10
+2026-09-02,Cafe,Bebidas,7,2.50,1.10
+2026-09-03,Pan,Panaderia,8,1.25,0.60
+2026-09-03,Leche,Lacteos,4,1.75,1.20
+2026-09-04,Cafe,Bebidas,12,,1.10
+2026-09-04,Pan,panaderia,6,1.25,0.60
+2026-09-05,Cafe,Bebidas,-2,2.50,1.10
+2026-09-05,Leche,Lacteos,5,1.75,
