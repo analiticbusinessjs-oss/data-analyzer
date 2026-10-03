@@ -30,3 +30,18 @@ print(df["categoria_normalizada"].unique())
 
 print("\nComparacion de categorias:")
 print(df[["categoria", "categoria_normalizada"]])
+
+print("\nPrueba de groupby y nunique:")
+
+inconsistencias_categoria = (
+    df.groupby("categoria_normalizada")["categoria"]
+    .nunique()
+)
+print(inconsistencias_categoria)
+
+print("\nCategorias con posibles inconsistencias:")
+
+problemas_categoria = inconsistencias_categoria[
+    inconsistencias_categoria > 1
+]
+print(problemas_categoria)
